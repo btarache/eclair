@@ -1,0 +1,270 @@
+/***** MEDIA QUERIES - responsive *****/
+@media (max-width: 1199px) {
+	h2.info{
+	font-size: 35px;
+	color: #c39c62;
+	padding-bottom: 1px;
+	}
+	p.info-text{
+	font-size: 19px;
+	line-height: 24px;
+	color:#808080;
+	margin: 5px 0;
+	padding: 5px 25px;
+	}
+}
+@media (max-width: 1024px) {
+	h2{
+	font-size: 38px;
+	margin-bottom: 5px;
+	}
+	h3{
+	font-size: 28px;
+	margin-bottom: 5px;
+	}
+	h4{
+	font-size: 15px;
+	}
+	.separator{
+	margin-bottom: 30px;
+	}	   
+	.img-mini-r,figcaption.fig-ajust{
+		width: 95%;
+	}
+	h2.info{
+		font-size: 35px !important;
+		padding-bottom: 12px;
+	}
+	p.info-text{
+		font-size: 16px !important;
+		line-height: 22px !important;
+		color:#808080;
+		margin: 5px 0;
+		padding: 3px 20px;
+	}
+	.footer-left,.footer-right{
+		text-align: center;
+	}
+	p.copyright{
+	margin-right: 0;
+	}
+}
+@media (max-width: 990px) {
+	.menu{
+	    border-top: solid 0px;
+  		border-bottom: solid 0px;
+	}
+	.img-mini-r{
+		max-width: 200px;
+	}
+	.img-med-r{
+		max-width: 400px;
+	}
+	figcaption h3.mgtitle span{
+		font-size: 18px !important;
+	}
+	p.mgtxt{
+		font-size: 12px !important;
+		line-height: 14px !important;
+	}
+	img.about{
+		margin: 20px 0;
+	}
+}
+@media (max-width: 768px) {
+	.top-content{
+		display: none;
+	}
+	.logo img{
+		max-width: 130px;
+	}
+	h2{
+		font-size: 30px;
+		margin-bottom: 3px;
+	}
+	h3{
+		font-size: 25px;
+		margin-bottom: 3px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	.separator{
+		margin-bottom: 5px
+	}
+	h2.info{
+		font-size: 30px;
+	}
+	p.info-text{
+		font-size: 18px;
+		line-height: 20px;
+		color:#808080;
+		margin: 15px 0;
+		padding: 5px 25px;
+	}
+	.footer-left,.footer-right{
+		text-align: center;
+	}
+	.boton{
+		font-size: 10px; 
+		padding: 3px;
+		width: 80%;
+		margin: 10px auto;
+	}
+	.boton a{
+		font-size: 13px !important; 
+		
+	}
+	.img-mini-r,figcaption.fig-ajust{
+		width: 50%;
+	}
+	img.pr-mini{
+		margin-top:10px;
+		max-height: 200px;
+	}
+	.blog-article-tl .the-time-post > span.the-year-post {
+	font-size: 35px;
+	
+	}
+	.sp-card figcaption h3{
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.sp-card figcaption p{
+		display: none;
+	}
+	p.copyright{
+		margin-right: 0;
+	}
+	.sub-page p{
+		margin: 10px;
+	}
+	.scroll-img {
+		width: 760px;
+	}
+	.scroll-img ul {
+		width: 650px;
+		height: 100px;
+	}
+	.scroll-img ul li {
+		display: inline-block;
+		margin: 10px auto;
+		height: 100px;
+	}
+	#brand_pr.scroll-img ul {
+	 	width: 920px;
+	}
+	.gold-logo-box{
+		padding: 0.5em;
+		margin-top: -98px;
+	}
+	.title-gen h2 span::before{
+		display: none;
+    }
+	.title-gen h2 span::after{
+		display:none;
+    }
+    .title-menu h3 span::before{
+		display:none;
+	}
+	.title-menu h3 span::after{
+		display: none;
+	}
+	.darkbg h3 span::before{
+		display: none;   
+	}
+	.darkbg h3 span::after{
+		display:none; 
+	}
+	.error-404{
+		font-size: 70px;
+	}
+	p.mgtxt{
+		display:none !important;
+	}
+	ul.bottom-menu{
+	text-align: center;
+	}
+	.copyright{
+	text-align: center;	
+	}
+}
+@media (max-width: 480px) {
+	h1{
+		font-size: 45px;
+		margin-bottom: 2px;
+	}
+	h2{
+		font-size: 38px;
+		margin-bottom: 2px;
+	}
+	h3{
+		font-size: 35px;
+		margin-bottom: 2px;
+	}
+	h4{
+		font-size: 14px;
+	}
+	img.pr-mini{
+		margin-top:10px;
+		max-height: 200px;
+	}
+	.img-med-r{
+		max-width: 280px;
+	}
+	h4.blog-title{
+		font-size: 22px;
+		margin-bottom: 2px;
+	}
+	p.info-text{
+		font-size: 16px !important;
+		line-height: 22px !important;
+		margin: 5px 0;
+		padding: 3px 10px;
+	}
+	p.txt-carou{
+	font-size: 16px;
+	padding: 10px 20px;
+	}
+	.scroll-img {
+		width: 460px;
+	}
+	.scroll-img ul {
+		width: 350px;
+		height: 100px;
+	}
+	.scroll-img ul li {
+		display: inline-block;
+		margin: 10px auto;
+		height: 100px;
+	}
+	#brand_pr.scroll-img ul {
+	 	width: 620px;
+	}
+	.minigal{
+		display:none;
+	}
+	.texto-carrusel{
+	padding: 10px 10px !important;
+	}
+}
+@media (max-width: 320px) {
+	.img-med-r{
+		float:left;
+	}
+	.scroll-img {
+		width: 300px;
+	}
+	.scroll-img ul {
+		width: 190px;
+		height: 100px;
+	}
+	.scroll-img ul li {
+		display: inline-block;
+		margin: 10px auto;
+		height: 100px;
+	}
+	#brand_pr.scroll-img ul {
+	 	width: 460px;
+	}
+}
